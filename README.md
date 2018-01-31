@@ -13,7 +13,7 @@ To build Coinffeine you will need:
  * A working [SBT 0.13](http://www.scala-sbt.org/download.html)
  * Protobuf compiler 2.5.0. You can get it with your favourite package manager
    (`protobuf` in brew, `protobuf-java` in apt-get and macports) or directly
-   fron its [project page](https://code.google.com/p/protobuf/downloads/list).
+   from its [project page](https://code.google.com/p/protobuf/downloads/list).
 
 To compile all the modules and run their tests:
 
@@ -33,7 +33,7 @@ or the `fakeroot` package in Ubuntu/Debian.
 Getting coverage metrics
 ------------------------
 
-To get coverage metrics just run `sbt scoverage:test` and loot at the
+To get coverage metrics just run `sbt scoverage:test` and look at the
 directory `target/scala-2.10/scoverage-report` of every module.
 
 
